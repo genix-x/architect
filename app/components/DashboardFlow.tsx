@@ -208,6 +208,18 @@ const initialEdges: Edge[] = [
   { id: 'e3-4', source: 'metric-3', target: 'metric-4', label: '0.999', type: 'bezier', animated: true,
     style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' },
     labelBgStyle: { fill: '#10b981', fillOpacity: 1 }, labelStyle: { fill: '#ffffff', fontSize: '14px', fontWeight: 700 } },
+  
+  // Project to Metric connections (gray)
+  { id: 'p1-m1', source: 'project-1', target: 'metric-1', type: 'bezier', animated: true,
+    style: { stroke: '#6b7280', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#6b7280' } },
+  { id: 'p2-m2', source: 'project-2', target: 'metric-2', type: 'bezier', animated: true,
+    style: { stroke: '#6b7280', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#6b7280' } },
+  { id: 'p3-m3', source: 'project-3', target: 'metric-3', type: 'bezier', animated: true,
+    style: { stroke: '#6b7280', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#6b7280' } },
+  { id: 'p4-m4', source: 'project-4', target: 'metric-4', type: 'bezier', animated: true,
+    style: { stroke: '#6b7280', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#6b7280' } },
+  { id: 'p5-m5', source: 'project-5', target: 'metric-5', type: 'bezier', animated: true,
+    style: { stroke: '#6b7280', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#6b7280' } },
 ];
 
 const nodeTypes = {
@@ -226,7 +238,7 @@ export default function DashboardFlow() {
   );
 
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-full">
       <ReactFlow
         nodes={nodes}
         edges={edges}

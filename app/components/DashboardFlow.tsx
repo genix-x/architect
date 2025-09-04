@@ -187,20 +187,20 @@ const initialNodes: Node[] = [
 
 const initialEdges: Edge[] = [
   // Connections with correlation scores
-  { id: 'e1-2', source: 'metric-1', target: 'metric-2', label: '0.998', type: 'smoothstep', animated: true, 
-    style: { stroke: '#16a34a', strokeWidth: 2 }, labelBgStyle: { fill: '#dcfce7' }, labelStyle: { fill: '#166534', fontWeight: 500 } },
-  { id: 'e2-3', source: 'metric-2', target: 'metric-3', label: '-0.644', type: 'smoothstep', animated: true,
-    style: { stroke: '#dc2626', strokeWidth: 2 }, labelBgStyle: { fill: '#fef2f2' }, labelStyle: { fill: '#991b1b', fontWeight: 500 } },
-  { id: 'e2-5', source: 'metric-2', target: 'metric-5', label: '0.998', type: 'smoothstep', animated: true,
-    style: { stroke: '#16a34a', strokeWidth: 2 }, labelBgStyle: { fill: '#dcfce7' }, labelStyle: { fill: '#166534', fontWeight: 500 } },
-  { id: 'e5-6', source: 'metric-5', target: 'metric-6', label: '0.388', type: 'smoothstep', animated: true,
-    style: { stroke: '#2563eb', strokeWidth: 2 }, labelBgStyle: { fill: '#dbeafe' }, labelStyle: { fill: '#1d4ed8', fontWeight: 500 } },
-  { id: 'e5-7', source: 'metric-5', target: 'metric-7', label: '0.999', type: 'smoothstep', animated: true,
-    style: { stroke: '#16a34a', strokeWidth: 2 }, labelBgStyle: { fill: '#dcfce7' }, labelStyle: { fill: '#166534', fontWeight: 500 } },
-  { id: 'e5-8', source: 'metric-5', target: 'metric-8', label: '0.998', type: 'smoothstep', animated: true,
-    style: { stroke: '#16a34a', strokeWidth: 2 }, labelBgStyle: { fill: '#dcfce7' }, labelStyle: { fill: '#166534', fontWeight: 500 } },
-  { id: 'e3-4', source: 'metric-3', target: 'metric-4', label: '0.999', type: 'smoothstep', animated: true,
-    style: { stroke: '#16a34a', strokeWidth: 2 }, labelBgStyle: { fill: '#dcfce7' }, labelStyle: { fill: '#166534', fontWeight: 500 } },
+  { id: 'e1-2', source: 'metric-1', target: 'metric-2', label: '0.998', type: 'bezier', animated: true, 
+    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' } },
+  { id: 'e2-3', source: 'metric-2', target: 'metric-3', label: '-0.644', type: 'bezier', animated: true,
+    style: { stroke: '#ef4444', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#ef4444' } },
+  { id: 'e2-5', source: 'metric-2', target: 'metric-5', label: '0.998', type: 'bezier', animated: true,
+    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' } },
+  { id: 'e5-6', source: 'metric-5', target: 'metric-6', label: '0.388', type: 'bezier', animated: true,
+    style: { stroke: '#3b82f6', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#3b82f6' } },
+  { id: 'e5-7', source: 'metric-5', target: 'metric-7', label: '0.999', type: 'bezier', animated: true,
+    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' } },
+  { id: 'e5-8', source: 'metric-5', target: 'metric-8', label: '0.998', type: 'bezier', animated: true,
+    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' } },
+  { id: 'e3-4', source: 'metric-3', target: 'metric-4', label: '0.999', type: 'bezier', animated: true,
+    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' } },
 ];
 
 const nodeTypes = {

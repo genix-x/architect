@@ -228,7 +228,8 @@ export default function DashboardFlow() {
         onConnect={onConnect}
         nodeTypes={nodeTypes}
         fitView
-        className="bg-gray-50"
+        className="bg-gray-100"
+        style={{ backgroundColor: '#f3f4f6' }}
       >
         <Controls />
         <MiniMap />

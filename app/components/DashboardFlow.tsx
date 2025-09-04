@@ -188,19 +188,26 @@ const initialNodes: Node[] = [
 const initialEdges: Edge[] = [
   // Connections with correlation scores
   { id: 'e1-2', source: 'metric-1', target: 'metric-2', label: '0.998', type: 'bezier', animated: true, 
-    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' } },
+    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' },
+    labelBgStyle: { fill: '#10b981', fillOpacity: 1 }, labelStyle: { fill: '#ffffff', fontSize: '14px', fontWeight: 700 } },
   { id: 'e2-3', source: 'metric-2', target: 'metric-3', label: '-0.644', type: 'bezier', animated: true,
-    style: { stroke: '#ef4444', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#ef4444' } },
+    style: { stroke: '#ef4444', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#ef4444' },
+    labelBgStyle: { fill: '#ef4444', fillOpacity: 1 }, labelStyle: { fill: '#ffffff', fontSize: '14px', fontWeight: 700 } },
   { id: 'e2-5', source: 'metric-2', target: 'metric-5', label: '0.998', type: 'bezier', animated: true,
-    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' } },
+    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' },
+    labelBgStyle: { fill: '#10b981', fillOpacity: 1 }, labelStyle: { fill: '#ffffff', fontSize: '14px', fontWeight: 700 } },
   { id: 'e5-6', source: 'metric-5', target: 'metric-6', label: '0.388', type: 'bezier', animated: true,
-    style: { stroke: '#3b82f6', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#3b82f6' } },
+    style: { stroke: '#3b82f6', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#3b82f6' },
+    labelBgStyle: { fill: '#3b82f6', fillOpacity: 1 }, labelStyle: { fill: '#ffffff', fontSize: '14px', fontWeight: 700 } },
   { id: 'e5-7', source: 'metric-5', target: 'metric-7', label: '0.999', type: 'bezier', animated: true,
-    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' } },
+    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' },
+    labelBgStyle: { fill: '#10b981', fillOpacity: 1 }, labelStyle: { fill: '#ffffff', fontSize: '14px', fontWeight: 700 } },
   { id: 'e5-8', source: 'metric-5', target: 'metric-8', label: '0.998', type: 'bezier', animated: true,
-    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' } },
+    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' },
+    labelBgStyle: { fill: '#10b981', fillOpacity: 1 }, labelStyle: { fill: '#ffffff', fontSize: '14px', fontWeight: 700 } },
   { id: 'e3-4', source: 'metric-3', target: 'metric-4', label: '0.999', type: 'bezier', animated: true,
-    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' } },
+    style: { stroke: '#10b981', strokeWidth: 4 }, markerEnd: { type: 'arrowclosed', color: '#10b981' },
+    labelBgStyle: { fill: '#10b981', fillOpacity: 1 }, labelStyle: { fill: '#ffffff', fontSize: '14px', fontWeight: 700 } },
 ];
 
 const nodeTypes = {

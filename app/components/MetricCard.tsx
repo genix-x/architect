@@ -42,7 +42,7 @@ const MetricCard: React.FC<MetricCardProps> = ({ data }) => {
   };
 
   return (
-    <div className="bg-white rounded shadow-sm border border-gray-200 p-4 min-w-[280px] max-w-[320px]">
+    <div className="bg-white rounded shadow-sm border border-gray-200 p-4 w-[300px]">
       <Handle type="target" position={Position.Left} className="w-3 h-3" />
       <Handle type="source" position={Position.Right} className="w-3 h-3" />
       

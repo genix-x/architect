@@ -35,7 +35,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
   };
 
   return (
-    <div className="bg-white rounded shadow-sm border border-gray-200 p-4 min-w-[240px] max-w-[280px]">
+    <div className="bg-white rounded shadow-sm border border-gray-200 p-4 w-[300px]">
       <Handle type="source" position={Position.Right} className="w-3 h-3" />
       
       <div className="space-y-3">
